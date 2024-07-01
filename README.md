@@ -23,9 +23,9 @@ pip install base36py
 from base36py import encode, decode
 
 encoded = encode(1234.5678, precision=8)
-print("Encoded:", encoded)
+print("Encoded:", encoded) # 'yakfv9yqdp'
 decoded = decode(encoded, precision=8)
-print("Decoded:", decoded)
+print("Decoded:", decoded) # 1234.5677999999998
 ```
 ## Reference
 
