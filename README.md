@@ -27,3 +27,16 @@ print("Encoded:", encoded)
 decoded = decode(encoded, precision=8)
 print("Decoded:", decoded)
 ```
+## Reference
+
+Please cite my library if you find it helpful in your project or research paper!
+
+```bibtex
+@misc{singh2024base36py,
+  author       = {Danishjeet Singh},
+  title        = {base36py},
+  year         = 2024,
+  url          = {https://github.com/DanishjeetSingh/base36py},
+  note         = {Version 0.2.0}
+}
+```
